@@ -6,6 +6,7 @@
 body {
   background-color: #2DB8BF;
   font-size: 20px;
+  margin: 0px;
   
 
 }
@@ -149,6 +150,7 @@ a {
   text-align: center;
   display: inline-block;
   max-height: 175px;
+  
 
 
 
