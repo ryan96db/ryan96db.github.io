@@ -1,5 +1,4 @@
 
-
 /*NAVIGATION */
 
 /*Gives blue color to body*/
@@ -7,8 +6,12 @@ body {
   background-color: #2DB8BF;
   font-size: 20px;
   margin: 0px;
-  
 
+}
+
+
+.container {
+  min-height: 100%;
 }
 
 /*Gets rid of extra padding in the containers*/
@@ -87,13 +90,62 @@ a {
 
 /*BEGINNING OF MAIN CONTENT*/
 
+#menu-tile, #specials-tile, #map-tile {
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+    background-color: #000000;
+  
+}
 
+#workdiv {
+  border-width: 0;
+    border-style: solid;
+    background-color: #7E7E7E;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    
+}
+
+#worklink {
+  text-decoration: none;
+  color: #000000;
+}
+
+#workdivtech {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #7E7E7E;
+  margin-bottom: 10px;
+}
+
+#workinfo {
+  color: #7E7E7E;
+  font-size: 16px;
+}
 /*Centers everything in blue space*/
 #main-content {
   
   margin-bottom: 0px;
   clear: both;
   text-align: center;
+  overflow: auto;
+  padding-bottom: 175px;
+  
+
   
 }
 
@@ -115,12 +167,18 @@ a {
 #cycleTracLogo {
   margin-top: -40px;
   margin-bottom: -30px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
+
 
 /*Makes it so you can see blog link*/
 #bloglink {
   color: #E7E7E7;
 }
+
 
 /*END OF MAIN CONTENT*/
 
@@ -144,15 +202,13 @@ a {
   background-color: #222;
   border-top: 0;
   position: fixed;
+  max-height: 175px;
   bottom:0;
   left: 0;
   right: 0;
   text-align: center;
-  display: inline-block;
-  max-height: 175px;
-  
-
-
+  display: block;
+  width: 100%;
 
 }
 
