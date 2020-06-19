@@ -174,11 +174,6 @@ a {
 }
 
 
-/*Makes it so you can see blog link*/
-#bloglink {
-  color: #E7E7E7;
-}
-
 
 /*END OF MAIN CONTENT*/
 
@@ -201,13 +196,13 @@ a {
   padding-bottom: 30px; 
   background-color: #222;
   border-top: 0;
-  position: fixed;
   max-height: 175px;
-  bottom:0;
-  left: 0;
-  right: 0;
+  position: fixed;
+  /*bottom:0;*/
+  /*left: 0;
+  right: 0;*/
   text-align: center;
-  display: block;
+  /*display: block;*/
   width: 100%;
 
 }
@@ -286,7 +281,7 @@ form .submit:hover {
 
 #Ryanpicture {
   margin-bottom: 50px;
-  transform: rotate(90deg);
+  
 }
 
 #aboutme {
