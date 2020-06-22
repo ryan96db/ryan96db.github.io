@@ -181,18 +181,6 @@ a {
   
 }
 
-/* Style the icon bar links */
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
-  z-index: -1;
-  position: relative;
-}
-
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   background-color: #000;
@@ -412,17 +400,193 @@ form .submit:hover {
 
 
 
+}
+
+@media (min-width: 769px) and (max-width: 834px) {
+
+  .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  z-index: -1;
+  position: relative;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 44%;
+  left: 0%;
+  
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  margin-left: 32px;
+ 
+  
+}
+}
+
+@media (min-width: 835px) and (max-width: 991px) {
+
+
+  .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  z-index: -1;
+  position: relative;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 44%;
+  left: 0%;
+  
+}
+
+}
+@media (min-width: 992px) and (max-width: 1055px) {
+
+  .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  z-index: -1;
+  position: relative;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 48%;
+  left: 0%;
+  
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  margin-left: 32px;
+ 
+  
+}
+
+}
+@media (min-width: 1056px) and (max-width: 1198px) {
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  z-index: -1;
+  position: relative;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 48%;
+  left: 0%;
+  
+}
+
+} 
+
+@media (min-width: 1199px) and (max-width: 1239px) {
+
+ /* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 16px;
+  z-index: -1;
+  position: relative;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 48%;
+  left: 0%;
+  
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  margin-left: 25px;
+ 
+  
+}
+
+}
+@media (min-width: 1240px) and (max-width: 1249px) { 
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 16px;
+  z-index: -1;
+  position: relative;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 48%;
+  left: 0%;
+  
+}
 
 
 
 
 }
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
+/*Large devices (desktops, 1250px and up)*/
+@media (min-width: 1250px) { 
 
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 18px;
+  z-index: -1;
+  position: relative;
+}
 
-
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 48%;
+  left: 0%;
+  
+}
 
 
 
@@ -430,9 +594,19 @@ form .submit:hover {
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
+@media (min-width: 1275px) { 
 
-
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  z-index: -1;
+  position: relative;
+}
 
 
 
