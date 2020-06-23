@@ -343,23 +343,6 @@ form .submit:hover {
 
 }
 
-/*BEGINNING OF FOOTER*/
-.fa {
-  font-size: 50px;
-  margin-top: 50px;
-}
-
-#box {
-  text-align: left;
-
-}
-
-.panel-footer {
-  padding-top: 0px;
-  padding-bottom: 30px; 
-}
-/*END OF FOOTER*/
-
 
 
 
@@ -384,7 +367,7 @@ form .submit:hover {
 }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px)
+@media (min-width: 300px)
 {
 
 
@@ -395,7 +378,34 @@ form .submit:hover {
   height: 200px;
 
 
+}
 
+
+#menu-tile, #specials-tile, #map-tile {
+  margin-left: 32px;
+ 
+  
+}
+
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  z-index: -1;
+  position: relative;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 61%;
+  left: 0%;
+  
 }
 
 
