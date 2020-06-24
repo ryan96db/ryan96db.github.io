@@ -316,6 +316,26 @@ form .submit:hover {
 
 }
 
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 61%;
+  left: 0%;
+  z-index: -1;
+  
+}
+
 
 
 }
@@ -343,6 +363,26 @@ form .submit:hover {
 
 }
 
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  margin-right: 20px;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 61%;
+  left: 0%;
+  z-index: -1;
+  
+}
+
 
 
 
@@ -367,7 +407,7 @@ form .submit:hover {
 }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 300px)
+@media (min-width: 300px) and (max-width: 768px)
 {
 
 
@@ -390,8 +430,7 @@ form .submit:hover {
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-  z-index: -1;
-  position: relative;
+  position: fixed;
   margin-right: 20px;
 }
 
@@ -400,6 +439,7 @@ form .submit:hover {
   position: fixed;
   top: 61%;
   left: 0%;
+  z-index: 1;
   
 }
 
